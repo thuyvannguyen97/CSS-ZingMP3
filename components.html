@@ -7,6 +7,13 @@
         <link rel="stylesheet" href="https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.20/fonts/icons/styles.css" type="text/css">
         <link href="css/style.css" rel="stylesheet">
         <link href="css/album-item.css" rel="stylesheet">
+        <link href="css/chart-item.css" rel="stylesheet">
+        <style>
+            #chart-item-card {
+                background-image: url(images/bg-chart.svg);
+                width: 319px;
+            }
+        </style>
     </head>
     <body>
         <!--album item -->
@@ -47,6 +54,27 @@
                     <div class="artist"></div>
                 </div>
             </div>
+        </div>
+        <!-- chart item -->
+        <div class="z-card card-40" id="chart-item-card" style="cursor: initial;">
+            <div class="prefix">01</div>
+            <a class="thumb-40" data-action="play">
+                <div class="image lazyload-img loaded" data-action="play">
+                    <img src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/7/4/9/b/749ba06d29317d07bdbd2617808b8a7f.jpg">
+                </div>
+                <span class="opac" data-action="play"></span>
+                <i data-action="play" class="icon ic-play-circle-outline"></i>
+            </a>
+            <div class="card-info">
+                <div class="title">
+                    <a class="--z--multiple-line" title="Khác Biệt To Lớn" style="cursor: default; user-select: none;">Khác Biệt To Lớn</a>
+                </div>
+                <div class="artist">
+                    <a role="button" class=" mr-2 spotlight" title="Trịnh Thăng Bình" href="/nghe-si/Trinh-Thang-Binh">Trịnh Thăng Bình<i class="icon ic-star"></i>, </a>
+                    <a role="button" class="  " title=" Liz Kim Cương" href="/nghe-si/Liz-Kim-Cuong">Liz Kim Cương</a>
+                </div>
+            </div>
+            <div class="prefix --z--prefix-percent">63%</div>
         </div>
     </body>
 </html>
