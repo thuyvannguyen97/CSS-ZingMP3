@@ -1,0 +1,50 @@
+#footer {
+    max-width: 1026px;
+}
+.bg-footer {
+    position: relative;
+    z-index: 0;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #fcfcfc;
+    background-image: none;
+}
+#footer .z-license-logo {
+    display: -webkit-box;
+    display: -moz-box;
+    display: box;
+    display: -webkit-flex;
+    display: -moz-flex;
+    display: -ms-flexbox;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #888;
+    margin-right: 4px;
+}
+#footer .z-logo {
+    height: 40px;
+    width: 40px;
+    display: inline-block;
+    background-image: url(../images/logo-mp-3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+#footer .z-license-info {
+    margin-left: 10px;
+    font-size: 12px;
+}
+#footer .z-nav-footer li {
+    display: inline-block;
+}
+#footer .z-nav-footer li .z-link {
+    color: #888;
+    font-size: 12px;
+}
+#footer .z-nav-footer li .z-link.z-link-special {
+    position: relative;
+    top: 5px;
+    font-size: 22px;
+    color: #d8d8d8;
+    margin: 0 5px;
+}

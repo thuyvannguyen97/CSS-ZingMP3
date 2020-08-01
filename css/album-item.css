@@ -1,3 +1,55 @@
+.box-slide {
+    padding-bottom: 10px;
+}
+.z-float-header .z-box-title {
+    float: left;
+}
+.z-box-title {
+    font-size: 24px;
+    font-weight: 700;
+    color: #32323d;
+    margin-bottom: 10px;
+    text-transform: capitalize;
+    display: block;
+}
+.collapsing, .z-slidersel, .z-slidersel-item {
+    position: relative;
+}
+.z-slidersel-control-prev {
+    right: 45px;
+}
+.z-slidersel-control-next {
+    right: 0;
+}
+.z-slidersel-control-prev.--z--disabled {
+    opacity: .1;
+    cursor: default;
+}
+.z-slidersel-control-next, .z-slidersel-control-prev {
+    /* border: 0; */
+    height: 26px;
+    width: 26px;
+    border-radius: 0;
+    text-align: center;
+    padding: 0;
+    position: absolute;
+    left: auto;
+    top: -39px;
+    bottom: 0;
+}
+.album-slider .slick-list, .artist-slider .slick-list {
+    margin: 0 -9.5px;
+    cursor: default;
+}
+.slick-slide {
+    float: left;
+    height: 100%;
+    min-height: 1px;
+    position: relative;
+    padding-left: 9.5px;
+    padding-right: 9.5px;
+}
+
 /*album item */
 .col-album {
     -webkit-border-radius: 2px;

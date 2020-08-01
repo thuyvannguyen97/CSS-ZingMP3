@@ -1,0 +1,1580 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <!-- CSS -->
+        <link href="css/style.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/header.css">
+        <link rel="stylesheet" href="css/slider.css">
+        <link rel="stylesheet" href="css/album-item.css">
+        <link rel="stylesheet" href="css/chart-item.css">
+        <link rel="stylesheet" href="css/mix-item.css">
+        <link rel="stylesheet" href="css/footer.css">
+
+        <!-- icon -->
+        <link rel="icon" type="image/png" href="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/icon_zing_mp3_60.png">
+        <link rel="stylesheet" href="https://zjs.zadn.vn/zmp3-desktop/releases/v0.1.20/fonts/icons/styles.css" type="text/css">
+
+        <!-- Google font (font-family: 'Roboto', sans-serif) -->
+        <link href="https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900" rel="stylesheet"> 
+    </head>
+    <body>
+        <!-- header -->
+        <header id="header" class="">
+            <div class="z-top-bar">
+                <div class="--z--top-bar-inner z-no-login">
+                    <a class="z-logo" href="/">Zing mp3</a>
+                    <!-- menu bar -->
+                    <div class="z-menu-bar">
+                        <div class="--z--menu-bar-inner">
+                            <ul class="z-nav pri">
+                                <li class="--z--shrink">
+                                    <a class="nav-link text-upper active" href="/">Trang chủ</a>
+                                </li>
+                                <li class="">
+                                    <a class="nav-link text-upper " href="/zing-chart/index.html">#zingchart</a>
+                                    <div class="z-dropdown-table-menu z-tbl-width-col-4 clearfix pad-top-10 pad-bottom-10">
+                                        <div class="z-tbl-col">
+                                            <div class="z-title-group">REALTIME</div>
+                                            <ul class="menu-list">
+                                                <li class="menu-item">
+                                                    <a href="/zing-chart/bai-hat.html">Bài hát</a>
+                                                </li>
+                                                <li class="menu-item"><a href="/zing-chart/video.html">MV</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="z-tbl-col">
+                                            <div class="z-title-group">TUẦN</div>
+                                            <ul class="menu-list">
+                                                <li class="menu-item">
+                                                    <a href="/zing-chart-tuan/bai-hat-Viet-Nam/IWZ9Z08I.html">Bài hát</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/zing-chart-tuan/video-Viet-Nam/IWZ9Z08W.html">MV</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="z-tbl-col">
+                                            <div class="z-title-group">US-UK</div>
+                                            <ul class="menu-list">
+                                                <li class="menu-item">
+                                                    <a href="/zing-chart-tuan/bai-hat-US-UK/IWZ9Z0BW.html">Bài hát</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/zing-chart-tuan/video-US-UK/IWZ9Z0BU.html">MV</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="z-tbl-col">
+                                            <div class="z-title-group">K-POP</div>
+                                            <ul class="menu-list">
+                                                <li class="menu-item">
+                                                    <a href="/zing-chart-tuan/bai-hat-Kpop/IWZ9Z0BO.html">Bài hát</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/zing-chart-tuan/video-Kpop/IWZ9Z0BZ.html">MV</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li class="">
+                                    <a class="nav-link text-upper " href="/top-new-release/index.html">MỚI PHÁT HÀNH</a>
+                                </li>
+                                <li class="">
+                                    <a class="nav-link text-upper " href="/top100">Top 100</a>
+                                </li>
+                                <li class="">
+                                    <a class="nav-link text-upper " href="/chu-de">Chủ đề</a>
+                                </li>
+                                <li class="--z--shrink">
+                                    <a class="nav-link text-upper " href="/the-loai-video.html">MV</a>
+                                </li>
+                                <li class="--z--shrink">
+                                    <a class="nav-link text-upper " href="/the-loai-album.html">Album</a>
+                                </li>
+                                <li class="--z--shrink">
+                                    <a class="nav-link text-upper " href="/the-loai-nghe-si.html">Nghệ sĩ</a>
+                                    <div class="z-dropdown-table-menu z-tbl-width-col-1 clearfix pad-top-10 pad-bottom-10">
+                                        <div class="z-tbl-col">
+                                            <ul class="menu-list">
+                                                <li class="menu-item">
+                                                    <a href="/the-loai-nghe-si/Viet-Nam/IWZ9Z08I.html">Việt Nam</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/the-loai-nghe-si/US-UK/IWZ9Z08O.html">Âu Mỹ</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/the-loai-nghe-si/Kpop/IWZ9Z08W.html">Hàn Quốc</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/the-loai-nghe-si/Nhat-Ban/IWZ9Z08Z.html">Nhật Bản</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/the-loai-nghe-si/Hoa-Ngu/IWZ9Z08U.html">Hoa Ngữ</a>
+                                                </li>
+                                                <li class="menu-item">
+                                                    <a href="/the-loai-nghe-si/Hoa-Tau/IWZ9Z086.html">Hòa Tấu</a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </li>
+                                <li>
+                                    <a class="nav-link " href="/mymusic">NHẠC CÁ NHÂN</a>
+                                </li>
+                                <li class="--z--shrink z-button-vip" style="padding-right: 20px;">
+                                    <a class="nav-link" href="https://zingmp3.vn/vip#utm_source=desktop&amp;utm_medium=topnav-link&amp;utm_campaign=VIP" rel="noopener noreferrer" target="_blank">
+                                        <i class="icon ic-svg-vip-btn"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <!-- search -->
+                    <div class="z-header-search-wrap">
+                        <form>
+                            <div role="combobox" aria-haspopup="listbox" aria-owns="react-autowhatever-1" aria-expanded="false" class="react-autosuggest__container">
+                                <div class="z-input-group header-search-group">
+                                    <label>
+                                        <i class="icon ic-search"></i>
+                                        <div class="input-wrapper">
+                                            <input type="text" autocomplete="off" aria-autocomplete="list" aria-controls="react-autowhatever-1" class="form-control z-input-placeholder" placeholder="Nhập tên bài hát, ca sĩ hoặc mv…" value="">
+                                        </div>
+                                    </label>
+                                </div>
+                                <div class="--z--clip-header"></div>
+                            </div>
+                        </form>
+                    </div>
+                    <!-- user profile container -->
+                    <div class=" user-profile-container" style="visibility: visible;">
+                        <a class="icon-button z-center mar-left-10">
+                            <i class="icon ic-upload"></i>
+                        </a>
+                        <div class="z-noti-wrap">
+                            <a class="icon-button z-center mar-left-10">
+                                <i class="icon ic-noti"></i>
+                            </a>
+                        </div>
+                        <div class="z-login-wrap pull-right mar-left-10">
+                            <div class="z-card card-40">
+                                <a role="button" class="thumb-40 mar-right-0">
+                                    <img src="https://avatar.talk.zdn.vn/default.jpg" alt="Zing MP3">
+                                </a>
+                                <div class="card-info mar-left-10">
+                                    <div class="title mar-top-10">
+                                        <a role="button" class=""> Đăng Nhập</a>
+                                    </div>
+                                </div>
+                                <div class="extension">
+                                    <div class="list-buttons">
+                                        <div class="normal-view">
+                                            <a><i class="icon ic-go-down"></i></a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- slider -->
+        <section class="z-slider-main">
+            <div class="container" style="max-width: 1024px;">
+                <div class="row">
+                    <div id="slider-main" class="">
+                        <!-- slider main -->
+                        <div class="regular slider slick-initialized slick-slider" dir="ltr">
+                            <button type="button" data-role="none" class="slick-arrow slick-prev" style="display: block;"> Previous</button>
+                            <div class="slick-list">
+                                <div class="slick-track" style="opacity: 1; transform: translate3d(-3072px, 0px, 0px); width: 11264px;">
+                                    <a class="slick-slide slick-cloned z-slide" data-index="-1" tabindex="-1" href="/album/Nhac-Tre-Gay-Nghien-Various-Artists/ZU89UD8D.html" style="width: 1024px;">
+                                        <div class="image lazyload-img loaded">
+                                            <img src="https://photo-zmp3.zadn.vn/banner/d/e/5/2/de52529edfcf3da1b48b58ff1543afa8.jpg">
+                                        </div>
+                                    </a>
+                                    <a class="slick-slide z-slide" data-index="0" tabindex="-1" href="/bai-hat/Khac-Biet-To-Lon-Trinh-Thang-Binh-Liz-Kim-Cuong/ZWC0FAFA.html" style="outline: none; width: 1024px;">
+                                        <div class="image lazyload-img loaded">
+                                            <img src="https://photo-zmp3.zadn.vn/banner/4/7/6/d/476d57fe8f09b1efe559aa8fb92f6c92.jpg">
+                                        </div>
+                                    </a>
+                                    <a class="slick-slide z-slide" data-index="1" tabindex="-1" href="/bai-hat/Chuyen-Loai-Hoa-Dang-Do-Dam-Vinh-Hung/ZWCI7D9E.html" style="outline: none; width: 1024px;">
+                                        <div class="image lazyload-img loaded">
+                                            <img src="https://photo-zmp3.zadn.vn/banner/a/6/c/e/a6ce85c4889b7b642f678fd583ec0ef0.jpg">
+                                        </div>
+                                    </a>
+                                    <a class="slick-slide slick-active slick-current z-slide" data-index="2" tabindex="-1" href="/bai-hat/Tim-Nhau-Khong-Tang-Phuc/ZWCI07BC.html" style="outline: none; width: 1024px;">
+                                        <div class="image lazyload-img loaded">
+                                            <img src="https://photo-zmp3.zadn.vn/banner/4/b/3/1/4b31ed80f844e6077c4c48e3559e64e0.jpg">
+                                        </div>
+                                    </a>
+                                    <a class="slick-slide z-slide" data-index="3" tabindex="-1" href="/bai-hat/Di-Cung-Em-Minh-Vuong-M4U-Lemon-Climb-ACV/ZWCIUBWB.html" style="outline: none; width: 1024px;">
+                                        <div class="image lazyload-img loaded">
+                                            <img src="https://photo-zmp3.zadn.vn/banner/9/f/a/2/9fa2a78b6199e41e5aedca7f05baa969.jpg">
+                                        </div>
+                                    </a>
+                                    <a class="slick-slide z-slide" data-index="4" tabindex="-1" href="/album/Nhac-Tre-Gay-Nghien-Various-Artists/ZU89UD8D.html" style="outline: none; width: 1024px;">
+                                        <div class="image lazyload-img loaded">
+                                            <img src="https://photo-zmp3.zadn.vn/banner/d/e/5/2/de52529edfcf3da1b48b58ff1543afa8.jpg">
+                                        </div>
+                                    </a>
+                                </div>
+                            </div>
+                            <button type="button" data-role="none" class="slick-arrow slick-next" style="display: block;"> Next</button>
+                        </div>
+                     </div>   
+                </div>
+            </div>
+        </section>
+
+        <!-- recently listened list -->
+        <section class="z-recently-listen">
+            <div class="container">
+                <div class="sub-container pad-top-20">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="z-float-header clearfix">
+                                <div class="z-box-title z-show">Chìm Đắm Nỗi Nhớ</div>
+                            </div>
+                            <div class="box-slide album-slider">
+                                <div id="z-slidersel-coffee" class="z-slidersel slide">
+                                    <div class="regular slider slick-initialized slick-slider" dir="ltr">
+                                        <a class="z-slidersel-control-prev --z--disabled " style="display: block;">
+                                            <i class="icon ic-go-left"></i>
+                                        </a>
+                                        <div class="slick-list">
+                                            <div class="slick-track" style="opacity: 1; transform: translate3d(0px, 0px, 0px); width: 2090px;">
+                                                <!--album items -->
+                                                <div class="z-album-item no-line-height slick-slide slick-active slick-current col-md-3 card-209 margin-bottom-30 no-line-height" data-index="0" tabindex="-1" style="outline: none; width: 209px;">
+                                                    <div class="col-album">
+                                                        <a href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">
+                                                            <div class="card-190 --z--reset-height">
+                                                                <div class="image lazyload-img loaded">
+                                                                    <img src="https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/d/6/5/7d6521de383e5ba2ed1cfe13292c9667.jpg">
+                                                                </div>
+                                                                <div class="opac"></div>
+                                                                <div class="player-actions">
+                                                                    <ul>
+                                                                        <li>
+                                                                            <a class="action  z-tooltip-btn" data-tip="true" data-for="like-6IOE89CF">
+                                                                                <i role="button" class="icon ic-like"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li style="z-index: 11; width: 50px;">
+                                                                            <a data-action="play">
+                                                                                <i class="icon ic-play-circle-outline" data-action="play"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li class="">
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more--" currentitem="false">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </a>
+                                                        <div class="card-info ">
+                                                            <div class="title">
+                                                                <a title="Buồn Làm Chi Em Ơi!" href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">Buồn Làm Chi Em Ơi!</a>
+                                                            </div>
+                                                            <div class="artist"></div>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="z-album-item no-line-height slick-slide slick-active slick-current col-md-3 card-209 margin-bottom-30 no-line-height" data-index="1" tabindex="-1" style="outline: none; width: 209px;">
+                                                        <div class="col-album">
+                                                            <a href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">
+                                                                <div class="card-190 --z--reset-height">
+                                                                    <div class="image lazyload-img loaded">
+                                                                        <img src="https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/d/6/5/7d6521de383e5ba2ed1cfe13292c9667.jpg">
+                                                                    </div>
+                                                                    <div class="opac"></div>
+                                                                    <div class="player-actions">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a class="action  z-tooltip-btn" data-tip="true" data-for="like-6IOE89CF">
+                                                                                    <i role="button" class="icon ic-like"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li style="z-index: 11; width: 50px;">
+                                                                                <a data-action="play">
+                                                                                    <i class="icon ic-play-circle-outline" data-action="play"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <a class="action z-tooltip-btn" data-tip="true" data-for="more--" currentitem="false">
+                                                                                    <i role="button" class="icon ic-more"></i>
+                                                                                </a>
+                                                                                <div id="z-inline-dropdown"></div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <div class="card-info ">
+                                                                <div class="title">
+                                                                    <a title="Buồn Làm Chi Em Ơi!" href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">Buồn Làm Chi Em Ơi!</a>
+                                                                </div>
+                                                                <!-- <div class="artist"></div> -->
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="z-album-item no-line-height slick-slide slick-active slick-current col-md-3 card-209 margin-bottom-30 no-line-height" data-index="2" tabindex="-1" style="outline: none; width: 209px;">
+                                                        <div class="col-album">
+                                                            <a href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">
+                                                                <div class="card-190 --z--reset-height">
+                                                                    <div class="image lazyload-img loaded">
+                                                                        <img src="https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/d/6/5/7d6521de383e5ba2ed1cfe13292c9667.jpg">
+                                                                    </div>
+                                                                    <div class="opac"></div>
+                                                                    <div class="player-actions">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a class="action  z-tooltip-btn" data-tip="true" data-for="like-6IOE89CF">
+                                                                                    <i role="button" class="icon ic-like"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li style="z-index: 11; width: 50px;">
+                                                                                <a data-action="play">
+                                                                                    <i class="icon ic-play-circle-outline" data-action="play"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <a class="action z-tooltip-btn" data-tip="true" data-for="more--" currentitem="false">
+                                                                                    <i role="button" class="icon ic-more"></i>
+                                                                                </a>
+                                                                                <div id="z-inline-dropdown"></div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <div class="card-info ">
+                                                                <div class="title">
+                                                                    <a title="Buồn Làm Chi Em Ơi!" href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">Buồn Làm Chi Em Ơi!</a>
+                                                                </div>
+                                                                <div class="artist"></div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="z-album-item no-line-height slick-slide slick-active slick-current col-md-3 card-209 margin-bottom-30 no-line-height" data-index="3" tabindex="-1" style="outline: none; width: 209px;">
+                                                        <div class="col-album">
+                                                            <a href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">
+                                                                <div class="card-190 --z--reset-height">
+                                                                    <div class="image lazyload-img loaded">
+                                                                        <img src="https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/d/6/5/7d6521de383e5ba2ed1cfe13292c9667.jpg">
+                                                                    </div>
+                                                                    <div class="opac"></div>
+                                                                    <div class="player-actions">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a class="action  z-tooltip-btn" data-tip="true" data-for="like-6IOE89CF">
+                                                                                    <i role="button" class="icon ic-like"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li style="z-index: 11; width: 50px;">
+                                                                                <a data-action="play">
+                                                                                    <i class="icon ic-play-circle-outline" data-action="play"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <a class="action z-tooltip-btn" data-tip="true" data-for="more--" currentitem="false">
+                                                                                    <i role="button" class="icon ic-more"></i>
+                                                                                </a>
+                                                                                <div id="z-inline-dropdown"></div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <div class="card-info ">
+                                                                <div class="title">
+                                                                    <a title="Buồn Làm Chi Em Ơi!" href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">Buồn Làm Chi Em Ơi!</a>
+                                                                </div>
+                                                                <div class="artist"></div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div class="z-album-item no-line-height slick-slide slick-active slick-current col-md-3 card-209 margin-bottom-30 no-line-height" data-index="4" tabindex="-1" style="outline: none; width: 209px;">
+                                                        <div class="col-album">
+                                                            <a href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">
+                                                                <div class="card-190 --z--reset-height">
+                                                                    <div class="image lazyload-img loaded">
+                                                                        <img src="https://photo-resize-zmp3.zadn.vn/w480_r1x1_jpeg/cover/7/d/6/5/7d6521de383e5ba2ed1cfe13292c9667.jpg">
+                                                                    </div>
+                                                                    <div class="opac"></div>
+                                                                    <div class="player-actions">
+                                                                        <ul>
+                                                                            <li>
+                                                                                <a class="action  z-tooltip-btn" data-tip="true" data-for="like-6IOE89CF">
+                                                                                    <i role="button" class="icon ic-like"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li style="z-index: 11; width: 50px;">
+                                                                                <a data-action="play">
+                                                                                    <i class="icon ic-play-circle-outline" data-action="play"></i>
+                                                                                </a>
+                                                                            </li>
+                                                                            <li class="">
+                                                                                <a class="action z-tooltip-btn" data-tip="true" data-for="more--" currentitem="false">
+                                                                                    <i role="button" class="icon ic-more"></i>
+                                                                                </a>
+                                                                                <div id="z-inline-dropdown"></div>
+                                                                            </li>
+                                                                        </ul>
+                                                                    </div>
+                                                                </div>
+                                                            </a>
+                                                            <div class="card-info ">
+                                                                <div class="title">
+                                                                    <a title="Buồn Làm Chi Em Ơi!" href="/album/Buon-Lam-Chi-Em-Oi-Various-Artists/6IOE89CF.html">Buồn Làm Chi Em Ơi!</a>
+                                                                </div>
+                                                                <div class="artist"></div>
+                                                            </div>
+                                                        </div>
+                                                </div>
+                                                <div data-index="5" class="slick-slide" tabindex="-1" style="outline: none; width: 209px;"></div>
+                                                <div data-index="6" class="slick-slide" tabindex="-1" style="outline: none; width: 209px;"></div>
+                                                <div data-index="7" class="slick-slide" tabindex="-1" style="outline: none; width: 209px;"></div>
+                                                <div data-index="8" class="slick-slide" tabindex="-1" style="outline: none; width: 209px;"></div>
+                                                <div data-index="9" class="slick-slide" tabindex="-1" style="outline: none; width: 209px;"></div>
+                                            </div>
+                                        </div>
+                                        <a class="z-slidersel-control-next  " style="display: block;">
+                                            <i class="icon ic-go-right"></i>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!--week chart!-->
+        <section class="z-week-chart">
+            <div class="container">
+                <div class="sub-container z-widget pad-bottom-10">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="z-chart-realtime-wrapper">
+                                <div class="z-chart-realtime">
+                                    <div class="realtime-header clearfix">
+                                        <div class="pull-left">
+                                            <a role="button" class="z-btn z-btn-zingchart " title="#zingchart" href="/zing-chart/index.html">#zingchart</a>
+                                            <span class="z-time-pick white">31/07/2020 01:52</span>
+                                        </div>
+                                        <div class="pull-right">
+                                            <a class="z-btn z-btn-shadow radius-4 pull-right" data-action="play"><i class="icon ic-play" data-action="play"></i> Nghe tất cả</a>
+                                        </div>
+                                    </div>
+                                    <div id="zchart" class="realtime-chart" data-highcharts-chart="0">
+                                        <div id="highcharts-zgzh1mw-0" dir="ltr" class="highcharts-container " style="position: relative; overflow: hidden; width: 667px; height: 308px; text-align: left; line-height: normal; z-index: 0; -webkit-tap-highlight-color: rgba(0, 0, 0, 0);">
+                                            <svg version="1.1" class="highcharts-root" style="font-family:'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif;font-size:12px;background-color:false" xmlns="http://www.w3.org/2000/svg" width="667" height="308" viewBox="0 0 667 308">
+                                                <desc>Created with Highcharts 6.1.1</desc>
+                                                <defs>
+                                                    <clipPath id="highcharts-zgzh1mw-1">
+                                                        <rect x="0" y="0" width="627" height="278" fill="none"></rect>
+                                                    </clipPath>
+                                                </defs>
+                                                <rect fill="rgba(255, 255, 255, 0.0)" class="highcharts-background" x="0" y="0" width="667" height="308" rx="0" ry="0"></rect>
+                                                <rect fill="none" class="highcharts-plot-background" x="20" y="5" width="627" height="278"></rect>
+                                                <g class="highcharts-grid highcharts-xaxis-grid " data-z-index="1">
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 32.5 5 L 32.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 58.5 5 L 58.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 84.5 5 L 84.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 110.5 5 L 110.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 137.5 5 L 137.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 163.5 5 L 163.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 189.5 5 L 189.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 215.5 5 L 215.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 241.5 5 L 241.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 267.5 5 L 267.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 293.5 5 L 293.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 319.5 5 L 319.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 346.5 5 L 346.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 372.5 5 L 372.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 398.5 5 L 398.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 424.5 5 L 424.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 450.5 5 L 450.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 476.5 5 L 476.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 502.5 5 L 502.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 528.5 5 L 528.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 555.5 5 L 555.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 581.5 5 L 581.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 607.5 5 L 607.5 283" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 633.5 5 L 633.5 283" opacity="1"></path>
+                                                </g>
+                                                <g class="highcharts-grid highcharts-yaxis-grid " data-z-index="1">
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 20 283.5 L 647 283.5" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 20 208.5 L 647 208.5" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 20 133.5 L 647 133.5" opacity="1"></path>
+                                                    <path fill="none" data-z-index="1" class="highcharts-grid-line" d="M 20 58.5 L 647 58.5" opacity="1"></path>
+                                                </g>
+                                                <rect fill="none" class="highcharts-plot-border" data-z-index="1" x="20" y="5" width="627" height="278"></rect>
+                                                <g class="highcharts-plot-lines-1" data-z-index="1">
+                                                    <path fill="none" class="highcharts-plot-line "></path>
+                                                </g>
+                                                <g class="highcharts-axis highcharts-xaxis " data-z-index="2">
+                                                    <path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 20 283 L 647 283"></path>
+                                                </g>
+                                                <g class="highcharts-axis highcharts-yaxis " data-z-index="2">
+                                                    <path fill="none" class="highcharts-axis-line" data-z-index="7" d="M 20 5 L 20 283"></path>
+                                                </g>
+                                                <g class="highcharts-series-group" data-z-index="3">
+                                                    <g data-z-index="8" class="highcharts-series highcharts-series-2 highcharts-line-series " transform="translate(20,5) scale(1 1)" clip-path="url(#highcharts-zgzh1mw-1)">
+                                                        <path fill="none" d="M 13.0625 253.18307050933478 L 39.1875 261.1674391707018 L 65.3125 266.4373624381781 L 91.4375 267.1692129090172 L 117.5625 262.7391180507004 L 143.6875 246.92934824827157 L 169.8125 242.04334653926824 L 195.9375 243.37507444522126 L 222.0625 245.03973432766256 L 248.1875 243.97495188033525 L 274.3125 247.19329431972173 L 300.4375 240.90058002537612 L 326.5625 238.63604270782085 L 352.6875 243.85497639331246 L 378.8125 244.9857453585023 L 404.9375 245.9215541572801 L 431.0625 244.84177477407493 L 457.1875 240.30670136461328 L 483.3125 243.73800029346523 L 509.4375 244.02294207514436 L 535.5625 242.06134286232165 L 561.6875 235.03377870996144 L 587.8125 233.6540606091993 L 613.9375 239.08595078415632" class="highcharts-graph" data-z-index="1" stroke="#e35050" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path>
+                                                        <path fill="none" d="M 3.0625 253.18307050933478 L 13.0625 253.18307050933478 L 39.1875 261.1674391707018 L 65.3125 266.4373624381781 L 91.4375 267.1692129090172 L 117.5625 262.7391180507004 L 143.6875 246.92934824827157 L 169.8125 242.04334653926824 L 195.9375 243.37507444522126 L 222.0625 245.03973432766256 L 248.1875 243.97495188033525 L 274.3125 247.19329431972173 L 300.4375 240.90058002537612 L 326.5625 238.63604270782085 L 352.6875 243.85497639331246 L 378.8125 244.9857453585023 L 404.9375 245.9215541572801 L 431.0625 244.84177477407493 L 457.1875 240.30670136461328 L 483.3125 243.73800029346523 L 509.4375 244.02294207514436 L 535.5625 242.06134286232165 L 561.6875 235.03377870996144 L 587.8125 233.6540606091993 L 613.9375 239.08595078415632 L 623.9375 239.08595078415632" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" data-z-index="2" class="highcharts-tracker"></path>
+                                                    </g>
+                                                    <g data-z-index="8" class="highcharts-markers highcharts-series-2 highcharts-line-series  highcharts-tracker" transform="translate(20,5) scale(1 1)" clip-path="none"></g><g data-z-index="10" class="highcharts-series highcharts-series-0 highcharts-line-series " transform="translate(20,5) scale(1 1)" clip-path="url(#highcharts-zgzh1mw-1)">
+                                                        <path fill="none" d="M 13.0625 201.4916319255634 L 39.1875 228.81005032065391 L 65.3125 243.20110998903823 L 91.4375 241.73440966018455 L 117.5625 209.99189518112848 L 143.6875 110.68518518518519 L 169.8125 71.53118499529594 L 195.9375 95.49928791527489 L 222.0625 102.52085329328398 L 248.1875 103.2047135693139 L 274.3125 114.3294406035026 L 300.4375 72.6889484450659 L 326.5625 88.51971395772375 L 352.6875 113.53460300197659 L 378.8125 116.84292705663017 L 404.9375 102.74280794427614 L 431.0625 70.65236455285395 L 457.1875 46.33333333333334 L 483.3125 73.19284549056167 L 509.4375 85.43034516688678 L 535.5625 75.82030865636088 L 561.6875 63.55581449545562 L 587.8125 95.0373822902371 L 613.9375 148.4924605332436" class="highcharts-graph" data-z-index="1" stroke="#4a90e2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 3.0625 201.4916319255634 L 13.0625 201.4916319255634 L 39.1875 228.81005032065391 L 65.3125 243.20110998903823 L 91.4375 241.73440966018455 L 117.5625 209.99189518112848 L 143.6875 110.68518518518519 L 169.8125 71.53118499529594 L 195.9375 95.49928791527489 L 222.0625 102.52085329328398 L 248.1875 103.2047135693139 L 274.3125 114.3294406035026 L 300.4375 72.6889484450659 L 326.5625 88.51971395772375 L 352.6875 113.53460300197659 L 378.8125 116.84292705663017 L 404.9375 102.74280794427614 L 431.0625 70.65236455285395 L 457.1875 46.33333333333334 L 483.3125 73.19284549056167 L 509.4375 85.43034516688678 L 535.5625 75.82030865636088 L 561.6875 63.55581449545562 L 587.8125 95.0373822902371 L 613.9375 148.4924605332436 L 623.9375 148.4924605332436" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" data-z-index="2" class="highcharts-tracker"></path>
+                                                    </g>
+                                                    <g data-z-index="10" class="highcharts-markers highcharts-series-0 highcharts-line-series  highcharts-tracker" transform="translate(20,5) scale(1 1)" clip-path="none"></g><g data-z-index="100" class="highcharts-series highcharts-series-1 highcharts-line-series " transform="translate(20,5) scale(1 1)" clip-path="url(#highcharts-zgzh1mw-1)"><path fill="none" d="M 13.0625 250.97552154811535 L 39.1875 259.60175906505435 L 65.3125 265.43556712153776 L 91.4375 264.33179264092803 L 117.5625 256.71334921498055 L 143.6875 224.98283228462674 L 169.8125 218.98705732066253 L 195.9375 221.94445307577445 L 222.0625 221.94445307577445 L 248.1875 221.20660383058424 L 274.3125 228.34814469561616 L 300.4375 216.7495144876874 L 326.5625 220.60672639547028 L 352.6875 226.41353996737357 L 378.8125 228.25516369317347 L 404.9375 224.3409634290548 L 431.0625 216.66853103394703 L 457.1875 210.12686760402912 L 483.3125 215.9726732092148 L 509.4375 216.7195206159317 L 535.5625 215.82870262478747 L 561.6875 208.96010599273242 L 587.8125 215.80170814020732 L 613.9375 232.11537498813192" class="highcharts-graph" data-z-index="1" stroke="#50e3c2" stroke-width="2" stroke-linejoin="round" stroke-linecap="round"></path><path fill="none" d="M 3.0625 250.97552154811535 L 13.0625 250.97552154811535 L 39.1875 259.60175906505435 L 65.3125 265.43556712153776 L 91.4375 264.33179264092803 L 117.5625 256.71334921498055 L 143.6875 224.98283228462674 L 169.8125 218.98705732066253 L 195.9375 221.94445307577445 L 222.0625 221.94445307577445 L 248.1875 221.20660383058424 L 274.3125 228.34814469561616 L 300.4375 216.7495144876874 L 326.5625 220.60672639547028 L 352.6875 226.41353996737357 L 378.8125 228.25516369317347 L 404.9375 224.3409634290548 L 431.0625 216.66853103394703 L 457.1875 210.12686760402912 L 483.3125 215.9726732092148 L 509.4375 216.7195206159317 L 535.5625 215.82870262478747 L 561.6875 208.96010599273242 L 587.8125 215.80170814020732 L 613.9375 232.11537498813192 L 623.9375 232.11537498813192" stroke-linejoin="round" visibility="visible" stroke="rgba(192,192,192,0.0001)" stroke-width="22" data-z-index="2" class="highcharts-tracker"></path></g><g data-z-index="100" class="highcharts-markers highcharts-series-1 highcharts-line-series  highcharts-tracker" transform="translate(20,5) scale(1 1)" clip-path="none">
+                                                        <path fill="#f7f7f7" d="M 16 251 A 3 3 0 1 1 15.999998500000125 250.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 42 260 A 3 3 0 1 1 41.999998500000125 259.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 68 265 A 3 3 0 1 1 67.99999850000013 264.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 94 264 A 3 3 0 1 1 93.99999850000013 263.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 120 257 A 3 3 0 1 1 119.99999850000013 256.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 146 225 A 3 3 0 1 1 145.99999850000012 224.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 172 219 A 3 3 0 1 1 171.99999850000012 218.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 198 222 A 3 3 0 1 1 197.99999850000012 221.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 225 222 A 3 3 0 1 1 224.99999850000012 221.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 251 221 A 3 3 0 1 1 250.99999850000012 220.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 277 228 A 3 3 0 1 1 276.9999985000001 227.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 303 217 A 3 3 0 1 1 302.9999985000001 216.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 329 221 A 3 3 0 1 1 328.9999985000001 220.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 355 226 A 3 3 0 1 1 354.9999985000001 225.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 381 228 A 3 3 0 1 1 380.9999985000001 227.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 407 224 A 3 3 0 1 1 406.9999985000001 223.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 434 217 A 3 3 0 1 1 433.9999985000001 216.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 460 210 A 3 3 0 1 1 459.9999985000001 209.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 486 216 A 3 3 0 1 1 485.9999985000001 215.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 512 217 A 3 3 0 1 1 511.9999985000001 216.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 538 216 A 3 3 0 1 1 537.9999985000002 215.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 564 209 A 3 3 0 1 1 563.9999985000002 208.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 590 216 A 3 3 0 1 1 589.9999985000002 215.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                        <path fill="#f7f7f7" d="M 616 232 A 3 3 0 1 1 615.9999985000002 231.9970000005 Z" stroke="#50e3c2" stroke-width="2" class="highcharts-point"></path>
+                                                    </g>
+                                                </g>
+                                                <text x="334" text-anchor="middle" class="highcharts-title" data-z-index="4" style="color:#333333;font-size:18px;fill:#333333;" y="24"></text>
+                                                <text x="334" text-anchor="middle" class="highcharts-subtitle" data-z-index="4" style="color:#666666;fill:#666666;" y="24"></text>
+                                                <g class="highcharts-legend" data-z-index="7">
+                                                    <rect fill="none" class="highcharts-legend-box" rx="0" ry="0" visibility="hidden"></rect>
+                                                    <g data-z-index="1">
+                                                        <g></g>
+                                                    </g>
+                                                </g>
+                                                <g class="highcharts-axis-labels highcharts-xaxis-labels " data-z-index="7"></g>
+                                                <g class="highcharts-axis-labels highcharts-yaxis-labels " data-z-index="7"></g>
+                                                <g class="highcharts-plot-lines-100" data-z-index="100">
+                                                    <path fill="none" class="highcharts-plot-line "></path>
+                                                </g>
+                                            </svg>
+                                            <div class="highcharts-axis-labels highcharts-xaxis-labels " style="position: absolute; left: 0px; top: 0px; opacity: 1;">
+                                                <span opacity="1" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px; position: absolute; white-space: nowrap; color: rgb(162, 162, 162); cursor: default; margin-left: 0px; margin-top: 0px; left: 26.5625px; top: 289px; opacity: 1;">
+                                                    <span classname="d_xlabel">02</span>
+                                                </span>
+                                                <span style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px; position: absolute; white-space: nowrap; color: rgb(162, 162, 162); cursor: default; margin-left: 0px; margin-top: 0px; left: -6.5px; top: -10011px;">
+                                                    <span classname="d_xlabel">03</span>
+                                                </span>
+                                                <span opacity="1" style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px; position: absolute; white-space: nowrap; color: rgb(162, 162, 162); cursor: default; margin-left: 0px; margin-top: 0px; left: 78.8125px; top: 289px; opacity: 1;">
+                                                    <span classname="d_xlabel">04</span>
+                                                </span>
+                                                <span style="font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Helvetica, sans-serif; font-size: 12px; position: absolute; white-space: nowrap; color: rgb(162, 162, 162); cursor: default; margin-left: 0px; margin-top: 0px; left: -6.5px; top: -10011px;">
+                                                    <span classname="d_xlabel">05</span>
+                                                </span>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="realtime-footer"></div>
+                                </div>
+                                <div class="realtime-list-song">
+                                    <ul class="z-hor-chart-list list-info-mw-170">
+                                        <!-- chart items -->
+                                        <li class="chart-item ">
+                                            <div class="z-card card-40" id="chart-item-card" style="cursor: initial;">
+                                                <div class="prefix">
+                                                    <div class="sort">
+                                                        <div class="sort-number">
+                                                            <span class="">01</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="thumb-40" data-action="play">
+                                                    <div class="image lazyload-img loaded" data-action="play">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/1/3/c/4/13c41aade59ccbc1d6a5819050ca8c65.jpg">
+                                                    </div>
+                                                    <span class="opac" data-action="play"></span>
+                                                    <i data-action="play" class="icon ic-play-circle-outline"></i>
+                                                </a>
+                                                <div class="card-info">
+                                                    <div class="title">
+                                                        <a class="--z--multiple-line" title="Cho Anh Say" style="cursor: default; user-select: none;">Cho Anh Say</a>
+                                                    </div>
+                                                    <div class="artist">
+                                                        <a role="button" class=" mr-2 " title="Phan Duy Anh" href="/nghe-si/Phan-Duy-Anh">Phan Duy Anh, </a>
+                                                        <a role="button" class="  " title=" ACV" href="/nghe-si/ACV">ACV</a>
+                                                    </div>
+                                                </div>
+                                                <div class="prefix --z--prefix-percent">
+                                                    <div class="sort no-compare">
+                                                        <div class="sort-number">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="chart-item ">
+                                            <div class="z-card card-40" id="chart-item-card" style="cursor: initial;">
+                                                <div class="prefix">
+                                                    <div class="sort">
+                                                        <div class="sort-number">
+                                                            <span class="">02</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="thumb-40" data-action="play">
+                                                    <div class="image lazyload-img loaded" data-action="play">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/1/3/c/4/13c41aade59ccbc1d6a5819050ca8c65.jpg">
+                                                    </div>
+                                                    <span class="opac" data-action="play"></span>
+                                                    <i data-action="play" class="icon ic-play-circle-outline"></i>
+                                                </a>
+                                                <div class="card-info">
+                                                    <div class="title">
+                                                        <a class="--z--multiple-line" title="Cho Anh Say" style="cursor: default; user-select: none;">Cho Anh Say</a>
+                                                    </div>
+                                                    <div class="artist">
+                                                        <a role="button" class=" mr-2 " title="Phan Duy Anh" href="/nghe-si/Phan-Duy-Anh">Phan Duy Anh, </a>
+                                                        <a role="button" class="  " title=" ACV" href="/nghe-si/ACV">ACV</a>
+                                                    </div>
+                                                </div>
+                                                <div class="prefix --z--prefix-percent">
+                                                    <div class="sort no-compare">
+                                                        <div class="sort-number">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="chart-item ">
+                                            <div class="z-card card-40" id="chart-item-card" style="cursor: initial;">
+                                                <div class="prefix">
+                                                    <div class="sort">
+                                                        <div class="sort-number">
+                                                            <span class="">03</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="thumb-40" data-action="play">
+                                                    <div class="image lazyload-img loaded" data-action="play">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/1/3/c/4/13c41aade59ccbc1d6a5819050ca8c65.jpg">
+                                                    </div>
+                                                    <span class="opac" data-action="play"></span>
+                                                    <i data-action="play" class="icon ic-play-circle-outline"></i>
+                                                </a>
+                                                <div class="card-info">
+                                                    <div class="title">
+                                                        <a class="--z--multiple-line" title="Cho Anh Say" style="cursor: default; user-select: none;">Cho Anh Say</a>
+                                                    </div>
+                                                    <div class="artist">
+                                                        <a role="button" class=" mr-2 " title="Phan Duy Anh" href="/nghe-si/Phan-Duy-Anh">Phan Duy Anh, </a>
+                                                        <a role="button" class="  " title=" ACV" href="/nghe-si/ACV">ACV</a>
+                                                    </div>
+                                                </div>
+                                                <div class="prefix --z--prefix-percent">
+                                                    <div class="sort no-compare">
+                                                        <div class="sort-number">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="chart-item ">
+                                            <div class="z-card card-40" id="chart-item-card" style="cursor: initial;">
+                                                <div class="prefix">
+                                                    <div class="sort">
+                                                        <div class="sort-number">
+                                                            <span class="">04</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="thumb-40" data-action="play">
+                                                    <div class="image lazyload-img loaded" data-action="play">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/1/3/c/4/13c41aade59ccbc1d6a5819050ca8c65.jpg">
+                                                    </div>
+                                                    <span class="opac" data-action="play"></span>
+                                                    <i data-action="play" class="icon ic-play-circle-outline"></i>
+                                                </a>
+                                                <div class="card-info">
+                                                    <div class="title">
+                                                        <a class="--z--multiple-line" title="Cho Anh Say" style="cursor: default; user-select: none;">Cho Anh Say</a>
+                                                    </div>
+                                                    <div class="artist">
+                                                        <a role="button" class=" mr-2 " title="Phan Duy Anh" href="/nghe-si/Phan-Duy-Anh">Phan Duy Anh, </a>
+                                                        <a role="button" class="  " title=" ACV" href="/nghe-si/ACV">ACV</a>
+                                                    </div>
+                                                </div>
+                                                <div class="prefix --z--prefix-percent">
+                                                    <div class="sort no-compare">
+                                                        <div class="sort-number">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <li class="chart-item ">
+                                            <div class="z-card card-40" id="chart-item-card" style="cursor: initial;">
+                                                <div class="prefix">
+                                                    <div class="sort">
+                                                        <div class="sort-number">
+                                                            <span class="">05</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <a class="thumb-40" data-action="play">
+                                                    <div class="image lazyload-img loaded" data-action="play">
+                                                        <img src="https://photo-resize-zmp3.zadn.vn/w94_r1x1_jpeg/cover/1/3/c/4/13c41aade59ccbc1d6a5819050ca8c65.jpg">
+                                                    </div>
+                                                    <span class="opac" data-action="play"></span>
+                                                    <i data-action="play" class="icon ic-play-circle-outline"></i>
+                                                </a>
+                                                <div class="card-info">
+                                                    <div class="title">
+                                                        <a class="--z--multiple-line" title="Cho Anh Say" style="cursor: default; user-select: none;">Cho Anh Say</a>
+                                                    </div>
+                                                    <div class="artist">
+                                                        <a role="button" class=" mr-2 " title="Phan Duy Anh" href="/nghe-si/Phan-Duy-Anh">Phan Duy Anh, </a>
+                                                        <a role="button" class="  " title=" ACV" href="/nghe-si/ACV">ACV</a>
+                                                    </div>
+                                                </div>
+                                                <div class="prefix --z--prefix-percent">
+                                                    <div class="sort no-compare">
+                                                        <div class="sort-number">
+                                                            <span class=""></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </li>
+                                        <div class="z-btn-text">
+                                            <a href="/zing-chart/index.html">Xem tất cả</a>
+                                        </div>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row"></div>
+                    <div class="row week-chart mar-top-20">
+                        <div class="col-md-12">
+                            <div class="row">
+                                <div class="col-md-3 col-xs-6 mar-bottom-15">
+                                    <a class="card-210-118 --z--reset-size" href="/zing-chart-tuan/bai-hat-Viet-Nam/IWZ9Z08I.html" style="height: 60px;">
+                                        <div class=" lazyload-img loaded">
+                                            <img src="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/song-vn-2x.jpg">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 mar-bottom-15">
+                                    <a class="card-210-118 --z--reset-size" href="/zing-chart-tuan/MV-Viet-Nam/IWZ9Z08W.html" style="height: 60px;">
+                                        <div class=" lazyload-img loaded">
+                                            <img src="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/mv-vn-2x.jpg">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 mar-bottom-15">
+                                    <a class="card-210-118 --z--reset-size" href="/zing-chart-tuan/bai-hat-US-UK/IWZ9Z0BW.html" style="height: 60px;">
+                                        <div class=" lazyload-img loaded">
+                                            <img src="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/web_song_usuk.png">
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="col-md-3 col-xs-6 mar-bottom-15">
+                                    <a class="card-210-118 --z--reset-size" href="/zing-chart-tuan/bai-hat-Kpop/IWZ9Z0BO.html" style="height: 60px;">
+                                        <div class=" lazyload-img loaded"><img src="https://static-zmp3.zadn.vn/skins/zmp3-v5.2/images/web_song_kpop.png"></div>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- mix choice! -->
+        <section>
+            <div class="container">
+                <div class="sub-container pad-top-20 pad-bottom-40">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="z-float-header clearfix">
+                                <div class="z-box-title">Mix zing choice</div>
+                            </div>
+                            <div class="z-mix-box-container">
+                                <!-- mix items -->
+                                <div class="z-mix-item-wrapper clearfix ">
+                                    <a href="/album/Goc-nhac-Huong-Tram-Huong-Tram/Z6BOE7WA.html">
+                                        <div class="card-170">
+                                            <div class="image lazyload-img loaded">
+                                                <img src="https://photo-playlist-zmp3.zadn.vn/mixartist?src=HavwqN7EvKCI1og5AfZbHm1SATW_cEL7NrmfaMIEiXCF0tcKRj_Y758CVSXjXB5CLbWlc3pLkKvG33cKUO2r208VVi0lnV9AL6cVIMwYNv7Myr12hJJSXf6d1WJgTehyTItYxKAXR0bfYMBK8dq&amp;size=thumb/240_240">
+                                            </div>
+                                            <div class="opac"></div>
+                                            <div class="player-actions">
+                                                <ul>
+                                                    <li>
+                                                        <a class="action  z-tooltip-btn" data-tip="true" data-for="like-Z6BOE7WA">
+                                                            <i role="button" class="icon ic-like"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li style="z-index: 11; width: 50px;">
+                                                        <a data-action="play">
+                                                            <i class="icon ic-play-circle-outline" data-action="play"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a class="action z-tooltip-btn" data-tip="true" data-for="more--" currentitem="false">
+                                                            <i role="button" class="icon ic-more"></i>
+                                                        </a>
+                                                        <div id="z-inline-dropdown"></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="--z--mix-info">
+                                        <div class="--z--mix-title">
+                                            <a href="/album/Goc-nhac-Huong-Tram-Huong-Tram/Z6BOE7WA.html">Góc nhạc Hương Tràm</a>
+                                        </div>
+                                        <i class="--z--modified-time">50 bài hát</i>
+                                    </div>
+                                    <div class="z-mix-list">
+                                        <div class="col-md-6 pad-0">
+                                            <ul class="list-song list-song-suggest ">
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">1.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">2.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">3.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">4.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">5.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 pad-0">
+                                            <ul class="list-song list-song-suggest ">
+                                                <li class="">
+                                                    <div class="z-card card-40 " style="cursor: initial;">
+                                                        <div class="order" data-action="play">
+                                                            <span class="num " data-action="play">6.</span>
+                                                            <i data-action="play" class="icon ic-play"></i>
+                                                        </div>
+                                                        <div class="card-info">
+                                                            <div class="title">
+                                                                <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="extension">
+                                                            <div class="list-buttons">
+                                                                <ul class="hover-view">
+                                                                    <li>
+                                                                        <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-karaoke"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-more"></i>
+                                                                        </a>
+                                                                        <div id="z-inline-dropdown"></div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="">
+                                                    <div class="z-card card-40 " style="cursor: initial;">
+                                                        <div class="order" data-action="play">
+                                                            <span class="num " data-action="play">7.</span>
+                                                            <i data-action="play" class="icon ic-play"></i>
+                                                        </div>
+                                                        <div class="card-info">
+                                                            <div class="title">
+                                                                <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="extension">
+                                                            <div class="list-buttons">
+                                                                <ul class="hover-view">
+                                                                    <li>
+                                                                        <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-karaoke"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-more"></i>
+                                                                        </a>
+                                                                        <div id="z-inline-dropdown"></div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">8.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">9.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">10.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="z-mix-item-wrapper clearfix ">
+                                    <a href="/album/Goc-nhac-Huong-Tram-Huong-Tram/Z6BOE7WA.html">
+                                        <div class="card-170">
+                                            <div class="image lazyload-img loaded">
+                                                <img src="https://photo-playlist-zmp3.zadn.vn/mixartist?src=HavwqN7EvKCI1og5AfZbHm1SATW_cEL7NrmfaMIEiXCF0tcKRj_Y758CVSXjXB5CLbWlc3pLkKvG33cKUO2r208VVi0lnV9AL6cVIMwYNv7Myr12hJJSXf6d1WJgTehyTItYxKAXR0bfYMBK8dq&amp;size=thumb/240_240">
+                                            </div>
+                                            <div class="opac"></div>
+                                            <div class="player-actions">
+                                                <ul>
+                                                    <li>
+                                                        <a class="action  z-tooltip-btn" data-tip="true" data-for="like-Z6BOE7WA">
+                                                            <i role="button" class="icon ic-like"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li style="z-index: 11; width: 50px;">
+                                                        <a data-action="play">
+                                                            <i class="icon ic-play-circle-outline" data-action="play"></i>
+                                                        </a>
+                                                    </li>
+                                                    <li class="">
+                                                        <a class="action z-tooltip-btn" data-tip="true" data-for="more--" currentitem="false">
+                                                            <i role="button" class="icon ic-more"></i>
+                                                        </a>
+                                                        <div id="z-inline-dropdown"></div>
+                                                    </li>
+                                                </ul>
+                                            </div>
+                                        </div>
+                                    </a>
+                                    <div class="--z--mix-info">
+                                        <div class="--z--mix-title">
+                                            <a href="/album/Goc-nhac-Huong-Tram-Huong-Tram/Z6BOE7WA.html">Góc nhạc Hương Tràm</a>
+                                        </div>
+                                        <i class="--z--modified-time">50 bài hát</i>
+                                    </div>
+                                    <div class="z-mix-list">
+                                        <div class="col-md-6 pad-0">
+                                            <ul class="list-song list-song-suggest ">
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">1.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">2.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">3.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">4.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">5.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="col-md-6 pad-0">
+                                            <ul class="list-song list-song-suggest ">
+                                                <li class="">
+                                                    <div class="z-card card-40 " style="cursor: initial;">
+                                                        <div class="order" data-action="play">
+                                                            <span class="num " data-action="play">6.</span>
+                                                            <i data-action="play" class="icon ic-play"></i>
+                                                        </div>
+                                                        <div class="card-info">
+                                                            <div class="title">
+                                                                <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="extension">
+                                                            <div class="list-buttons">
+                                                                <ul class="hover-view">
+                                                                    <li>
+                                                                        <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-karaoke"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-more"></i>
+                                                                        </a>
+                                                                        <div id="z-inline-dropdown"></div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="">
+                                                    <div class="z-card card-40 " style="cursor: initial;">
+                                                        <div class="order" data-action="play">
+                                                            <span class="num " data-action="play">7.</span>
+                                                            <i data-action="play" class="icon ic-play"></i>
+                                                        </div>
+                                                        <div class="card-info">
+                                                            <div class="title">
+                                                                <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                            </div>
+                                                        </div>
+                                                        <div class="extension">
+                                                            <div class="list-buttons">
+                                                                <ul class="hover-view">
+                                                                    <li>
+                                                                        <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-karaoke"></i>
+                                                                        </a>
+                                                                    </li>
+                                                                    <li>
+                                                                        <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                            <i role="button" class="icon ic-more"></i>
+                                                                        </a>
+                                                                        <div id="z-inline-dropdown"></div>
+                                                                    </li>
+                                                                </ul>
+                                                            </div>
+                                                        </div>
+                                                    </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">8.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">9.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                                <li class="">
+                                                        <div class="z-card card-40 " style="cursor: initial;">
+                                                            <div class="order" data-action="play">
+                                                                <span class="num " data-action="play">10.</span>
+                                                                <i data-action="play" class="icon ic-play"></i>
+                                                            </div>
+                                                            <div class="card-info">
+                                                                <div class="title">
+                                                                    <a class="--z--multiple-line" title="Em Gái Mưa" style="cursor: default; user-select: none;">Em Gái Mưa</a>
+                                                                </div>
+                                                            </div>
+                                                            <div class="extension">
+                                                                <div class="list-buttons">
+                                                                    <ul class="hover-view">
+                                                                        <li>
+                                                                            <a class=" z-tooltip-btn" data-tip="true" data-for="karaoke-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-karaoke"></i>
+                                                                            </a>
+                                                                        </li>
+                                                                        <li>
+                                                                            <a class="action z-tooltip-btn" data-tip="true" data-for="more-ZW8IZECW">
+                                                                                <i role="button" class="icon ic-more"></i>
+                                                                            </a>
+                                                                            <div id="z-inline-dropdown"></div>
+                                                                        </li>
+                                                                    </ul>
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+        </section>
+
+        <!-- footer -->
+        <footer id="footer" class="bg-footer" style="display: block;">
+            <div class="container">
+                <div class="sub-container pad-top-50 bor-top ">
+                    <div class="row">
+                        <div class="col-md-12 z-center">
+                            <div class="z-license-logo clearfix">
+                                <span class="z-logo"></span>
+                                <div class="z-license-info">
+                                    <div class="z-copyright">Một sản phẩm của Zalo</div>
+                                </div>
+                            </div>
+                            <ul class="z-nav-footer">
+                                <li>
+                                    <a class="z-link" title="Giới thiệu">Giới thiệu</a>
+                                </li>
+                                <li>
+                                    <div class="z-link z-link-special">•</div>
+                                </li>
+                                <li>
+                                    <a href="https://mp3.zing.vn/huong-dan/contact" class="z-link" title="Liên hệ" target="_blank">Liên hệ</a>
+                                </li>
+                                <li>
+                                    <div class="z-link z-link-special">•</div>
+                                </li>
+                                <li>
+                                    <a href="https://adtima.vn/lien-he?utm_source=zingmp3&amp;utm_medium=footer" class="z-link" title="Quảng cáo" target="_blank">Quảng cáo</a>
+                                </li>
+                                <li>
+                                    <div class="z-link z-link-special">•</div>
+                                </li>
+                                <li>
+                                    <a href="https://docs.google.com/forms/d/1MBR_N1S1vB7LKbSbY0C-03kjDyM-Lp6fGLoyoebJTq0/viewform?edit_requested=true" class="z-link" title="Góp ý" target="_blank">Góp ý</a>
+                                </li>
+                                <li>
+                                    <div class="z-link z-link-special">•</div>
+                                </li>
+                                <li>
+                                    <a href="https://mp3.zing.vn/tnc" class="z-link" title="Thỏa thuận sử dụng" target="_blank">Thỏa thuận sử dụng</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <div style="height: 50px;"></div>
+    </body>
+</html>
